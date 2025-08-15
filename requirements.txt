@@ -1,0 +1,6 @@
+# Requirements for HafnianCalculator script (Python 3.10)
+# Only dependency outside Python standard library is numpy
+
+# Requires: Python >=3.9
+
+numpy>=1.21; python_version>="3.9"
