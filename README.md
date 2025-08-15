@@ -15,28 +15,27 @@ Comments
 - Todo: Consider comparing to already existing implementations.
 
 
-
-***** IMPORTANT *****
-This project **requires Python 3.9 or higher**.
-Older versions are not compatible due to type hinting and newer Python features.
-You can check your Python version with:
-   python --version
-*********************
+*IMPORTANT*
+> This project **requires Python 3.9 or higher**.
+> Older versions are not compatible due to type hinting and newer Python features.
+> You can check your Python version with:
+ >  python --version
 
 
 
 Project Structure
 -----------------
-
+```
 your_project/
 ├── README.txt
 ├── src/
 │   ├── hafnian.py                 (HafnianCalculator class and logic)
-│   ├── main.py         (Command-line interface)
+│   ├── main.py                    (Command-line interface)
 │   ├── block_diagonal.csv         (Example block-diagonal input matrix, CSV format)
 │   ├── block_diagonal.npy         (Example block-diagonal input matrix, NumPy format)
 └── tests/
     └── test_hafnian.py            (Unit tests)
+```
 
 Features
 --------
