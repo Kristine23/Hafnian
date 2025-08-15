@@ -102,25 +102,26 @@ Run the Unit Tests
 
 From the project root, run:
 
-   python -m unittest discover tests
+    python -m unittest discover tests
 
 Or, if necessary:
 
-   PYTHONPATH=src python -m unittest discover tests
+    PYTHONPATH=src python -m unittest discover tests
 
 Example
 -------
 
 Sample file block_diagonal.csv (found in src/):
 
+```
 0,1,0,0
 1,0,0,0
 0,0,0,1
 0,0,1,0
-
+```
 Command to compute:
 
-   python src/compute_hafnian.py src/block_diagonal.csv
+    python src/compute_hafnian.py src/block_diagonal.csv
 
 Author
 ------
